@@ -70,7 +70,7 @@ const Order = () => {
   ];
 
   return (
-    <>
+    <Box sx={{height:'100vh'}}>
       <Paper
         sx={{
           marginBottom: 2,
@@ -131,7 +131,7 @@ const Order = () => {
           rowSelection
         />
       </div>
-    </>
+    </Box>
 
   )
 }

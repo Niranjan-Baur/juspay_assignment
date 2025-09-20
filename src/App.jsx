@@ -1,5 +1,5 @@
 // src/App.jsx
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import { ThemeProvider } from "@mui/material";
 import { useMemo, useState } from "react";
 
@@ -27,7 +27,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<DashboardLayout toggleTheme={toggleTheme} mode={mode} />}>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<Navigate to="/dashboard" replace />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/overview" element={<Ecommerce />} />
             <Route path="/default" element={<Ecommerce />} />
             <Route path="/ecommerce" element={<Ecommerce />} />
