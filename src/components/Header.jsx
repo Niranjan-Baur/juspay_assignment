@@ -59,7 +59,7 @@ export default function Header({
             Dashboards /
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ mr: 1 }} >
-            {pathName.at(0).toUpperCase() + pathName.slice(1).toLowerCase()}
+            {pathName.at(0)?.toUpperCase() + pathName.slice(1)?.toLowerCase()}
           </Typography>
         </Box>
 
