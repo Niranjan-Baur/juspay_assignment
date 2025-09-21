@@ -43,24 +43,24 @@ const Rigthbar = ({ mobileOpen, handleDrawerToggle }) => {
         {
           label: 'You have a that need',
           time: 'Just now',
-          avater: './src/assets/BugBeetle.svg'
+          avater: '/assets/BugBeetle.svg'
         },
         {
           label: 'New user registered',
           time: '59 minutes ago',
-          avater: './src/assets/User.svg'
+          avater: '/assets/User.svg'
 
         },
         {
           label: 'You have a that need',
           time: 'Just now',
-          avater: './src/assets/BugBeetle.svg'
+          avater: '/assets/BugBeetle.svg'
 
         },
         {
           label: 'Andi Lane subscribed to you',
           time: 'Today, 11:57 AM',
-          avater: './src/assets/Broadcast.svg'
+          avater: '/assets/Broadcast.svg'
 
         },
       ]
@@ -71,31 +71,31 @@ const Rigthbar = ({ mobileOpen, handleDrawerToggle }) => {
         {
           label: 'You have a bug that needs to be fixed.',
           time: 'Just now',
-          avater: './src/assets/avater5.jpg'
+          avater: '/assets/avater5.jpg'
 
         },
         {
           label: 'Released a new version',
           time: '59 minutes ago',
-          avater: './src/assets/avater2.jpg'
+          avater: '/assets/avater2.jpg'
 
         },
         {
           label: 'Submitted a bug',
           time: '12 hours ago',
-          avater: './src/assets/avater7.jpg'
+          avater: '/assets/avater7.jpg'
 
         },
         {
           label: 'Modified A data in Page X',
           time: 'Today, 11:59 AM',
-          avater: './src/assets/avater8.jpg'
+          avater: '/assets/avater8.jpg'
 
         },
         {
           label: 'Deleted a page in Project X',
           time: 'Feb 2, 2023',
-          avater: './src/assets/avater4.jpg'
+          avater: '/assets/avater4.jpg'
 
         },
       ]
@@ -105,31 +105,31 @@ const Rigthbar = ({ mobileOpen, handleDrawerToggle }) => {
       data: [
         {
           label: 'Natali Craig',
-          avater: './src/assets/avater1.jpg'
+          avater: '/assets/avater1.jpg'
         },
         {
           label: 'Drew Cano',
-          avater: './src/assets/avater2.jpg'
+          avater: '/assets/avater2.jpg'
 
         },
         {
           label: 'Orlando Diggs',
-          avater: './src/assets/avater3.jpg'
+          avater: '/assets/avater3.jpg'
 
         },
         {
           label: 'Andi Lane',
-          avater: './src/assets/avater4.jpg'
+          avater: '/assets/avater4.jpg'
 
         },
         {
           label: 'Kate Morrison',
-          avater: './src/assets/avater5.jpg'
+          avater: '/assets/avater5.jpg'
 
         },
         {
           label: 'Koray Okumus',
-          avater: './src/assets/avater6.jpg'
+          avater: '/assets/avater6.jpg'
 
         }
       ]

@@ -52,7 +52,7 @@ for (let i = 0; i < 100; i++) {
     orderId: `#CM${9801 + i}`,
     user: {
       name: getRandomElement(names),
-      avatar: `./src/assets/avater${Math.floor(Math.random() * 8) + 1}.jpg`
+      avatar: `/assets/avater${Math.floor(Math.random() * 8) + 1}.jpg`
     },
     project: getRandomElement(projects),
     address: getRandomElement(addresses),

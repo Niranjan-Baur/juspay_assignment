@@ -118,7 +118,7 @@ const Sidebar = ({ mobileOpen, handleDrawerToggle }) => {
           mb: 2,
         }}
       >
-        <Avatar sx={{ mr: 1 }} src="./src/assets/avater1.jpg"/>
+        <Avatar sx={{ mr: 1 }} src="/assets/avater1.jpg"/>
         <Typography variant="subtitle1" >
           ByeWind
         </Typography>

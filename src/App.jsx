@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route element={<DashboardLayout toggleTheme={toggleTheme} mode={mode} />}>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Ecommerce />} />
             <Route path="/overview" element={<Ecommerce />} />
             <Route path="/default" element={<Ecommerce />} />
             <Route path="/ecommerce" element={<Ecommerce />} />

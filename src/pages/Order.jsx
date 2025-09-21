@@ -70,7 +70,9 @@ const Order = () => {
   ];
 
   return (
-    <Box sx={{height:'100vh'}}>
+    <Box sx={{ height: '100vh' }}>
+      <Typography style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: 20 }} sx={{ color: "text.primary" }}>Order List</Typography>
+
       <Paper
         sx={{
           marginBottom: 2,
