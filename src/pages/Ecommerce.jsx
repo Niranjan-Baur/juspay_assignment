@@ -206,7 +206,7 @@ const Ecommerce = () => {
         <Grid size={{ xs: 12, sm: 12, md: 3, lg: 3 }} columnSpacing={2}>
           <Paper sx={{ bgcolor: "background.card" }} style={{ marginTop: 20, padding: 10, display: 'flex', flexDirection: 'column', gap: 20 }}>
             <Typography style={{ fontSize: '14px', fontWeight: 'bold', textAlign: 'center', padding: 10 }}>Revenue by Location</Typography>
-            <img src='src\assets\world_map.svg' alt='hello' style={{ width: '100%', height: '100%', display: 'flex', alignSelf: 'center' }} />
+            <img src='/assets/world_map.svg' alt='world_map' style={{ width: '100%', height: '100%', display: 'flex', alignSelf: 'center' }} />
             <Box sx={{ padding: 0.5 }}>
               {
                 progressData.map((item, index) => (
