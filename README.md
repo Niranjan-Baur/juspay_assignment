@@ -7,6 +7,7 @@ The project strictly follows design specifications and includes functionality su
 
 ## 🚀 Live Demo
 Deployed Application: [View Here](https://juspay-fe-assignment.netlify.app/dashboard)
+
 Dashboard Video Link : https://drive.google.com/file/d/1CAXE7ah89rdM05BRaLFbGzZHdXYzX-9y/view?usp=drivesdk
 
 ---
