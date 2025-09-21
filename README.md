@@ -1,12 +1,37 @@
-# React + Vite
+# Juspay Admin Dashboard (Frontend Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **pixel-perfect responsive Admin Dashboard** built with **React and Material-UI (MUI)** as part of the Juspay frontend assignment.  
+The project strictly follows design specifications and includes functionality such as filtering, searching, sorting, pagination, and theme switching (light/dark).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+Deployed Application: [View Here](https://juspay-fe-assignment.netlify.app/dashboard)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Niranjan-Baur/juspay_assignment.git
+cd juspay_assignment
+```
+### 2. Run the project
+
+```
+npm install
+```
+```
+npm run dev
+```
+
+🛠️ Tech Stack
+
+React (Frontend framework)
+
+Material-UI (MUI) (UI Components & Styling)
+
+React Router (Routing)
+
+Netlify (Deployment)

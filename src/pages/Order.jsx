@@ -21,7 +21,6 @@ const Order = () => {
       valueGetter: (params) => params.name, // expose name for search/sort
       renderCell: (params) => {
         const user = params.row.user; // full object available here
-        console.log(params)
         return (
           <Stack direction="row" spacing={1} alignItems="center">
             <Avatar

@@ -1,4 +1,3 @@
-// src/layouts/DashboardLayout.jsx
 import { Outlet } from "react-router";
 import { Box, Drawer } from "@mui/material";
 import { useState } from "react";
@@ -13,7 +12,7 @@ export default function DashboardLayout({ toggleTheme, mode }) {
 
   const handleDrawerToggle = () => setMobileOpen(!mobileOpen);
   const handleRightBarToggle = () => setRightBarOpen(!rightBarOpen);
-  const drawerWidth = 300; // same width as your Rigthbar
+  const drawerWidth = 300;
 
   return (
     <Box sx={{ display: "flex", minHeight: "100vh" }}>

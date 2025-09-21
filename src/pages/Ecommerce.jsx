@@ -105,7 +105,6 @@ const Ecommerce = () => {
 
 
   const settings = {
-    // margin: { right: 5 },
     width: 180,
     height: 180,
     hideLegend: true,
@@ -153,10 +152,10 @@ const Ecommerce = () => {
               yAxis={[
                 {
                   data: yLabels,
-                  valueFormatter: (value) => `${value}M`, // 👈 adds "M" suffix
+                  valueFormatter: (value) => `${value}M`, 
                   min: 0,
-                  max: 30, // optional, set limit for 30M
-                  tickNumber: 3, // creates ticks: 0, 10, 20, 30
+                  max: 30, 
+                  tickNumber: 3,
                 },
               ]}
             />
@@ -189,14 +188,12 @@ const Ecommerce = () => {
               ]}
               height={330}
               xAxis={[{ scaleType: 'point', data: xLabels }]}
-              // yAxis={[{ data: yLabels }]}
               yAxis={[
                 {
-                  // data: yLabels,
-                  valueFormatter: (value) => `${value}M`, // 👈 adds "M" suffix
+                  valueFormatter: (value) => `${value}M`, 
                   min: 0,
-                  max: 50, // optional, set limit for 30M
-                  tickNumber: 4, // creates ticks: 0, 10, 20, 30
+                  max: 50, 
+                  tickNumber: 4, 
                 },
               ]}
             />
@@ -298,7 +295,7 @@ function BasicTable() {
           <TableRow
             key={row.name}
             sx={{
-              '& td, & th': { borderBottom: 'none', paddingY: 1.5 }, // removes borders + reduces gap
+              '& td, & th': { borderBottom: 'none', paddingY: 1.5 },
             }}          >
             <TableCell component="th" scope="row">
               {row.name}
