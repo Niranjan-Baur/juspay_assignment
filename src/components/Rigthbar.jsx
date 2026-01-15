@@ -178,23 +178,22 @@ const Rigthbar = ({ mobileOpen, handleDrawerToggle }) => {
     <>
       {/* Desktop Sidebar */}
       <Drawer
-        variant="persistent"
+        variant="temporary"
         anchor="right"
         open={mobileOpen}
         onClose={handleDrawerToggle}
+        ModalProps={{ keepMounted: true }}
         sx={{
-          display: { xs: "none", sm: "block" },
+          display: { xs: "block", sm: "none" },
           width: drawerWidth,
           "& .MuiDrawer-paper": {
             width: drawerWidth,
             boxSizing: "border-box",
           },
-          overflow: "auto",
         }}
       >
         {drawerContent}
       </Drawer>
-
     </>
   );
 }

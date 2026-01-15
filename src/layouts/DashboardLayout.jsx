@@ -26,7 +26,7 @@ export default function DashboardLayout({ toggleTheme, mode }) {
           display: "flex",
           flexDirection: "column",
           transition: "margin 0.3s ease",
-          mr: !rightBarOpen ? `${-drawerWidth}px` : 0,
+          // mr: !rightBarOpen ? `${-drawerWidth}px` : 0,
           overflow: "auto",
         }}
       >
@@ -46,22 +46,6 @@ export default function DashboardLayout({ toggleTheme, mode }) {
       </Box>
 
       <Rigthbar mobileOpen={rightBarOpen} handleDrawerToggle={handleRightBarToggle} />
-
-      {/* Mobile Drawer */}
-      {/* <Drawer
-        variant="temporary"
-        anchor="right"
-        open={rightBarOpen}
-        onClose={handleRightBarToggle}
-        ModalProps={{ keepMounted: true, }}
-        sx={{
-          display: { xs: "block", sm: "none" },
-          "& .MuiDrawer-paper": { width: drawerWidth, boxSizing: "border-box" },
-          overflow: "auto",
-        }}
-      >
-        <RigthbarContent />
-      </Drawer> */}
     </Box>
   );
 }

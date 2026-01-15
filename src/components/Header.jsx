@@ -67,7 +67,7 @@ export default function Header({
         </Box>
 
         {/* CENTER: Search */}
-        <SearchComponent />
+        {/* <SearchComponent /> */}
 
         {/* RIGHT: Actions */}
         <Box sx={{ display: "flex", alignItems: "center", ml: 2 }}>
@@ -78,17 +78,17 @@ export default function Header({
             {mode === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
 
-          <IconButton color="inherit">
+          {/* <IconButton color="inherit">
             <HistoryIcon />
-          </IconButton>
+          </IconButton> */}
 
-          <IconButton color="inherit">
+          {/* <IconButton color="inherit">
             <NotificationsNoneRoundedIcon />
-          </IconButton>
+          </IconButton> */}
 
-          <IconButton color="inherit" onClick={handleRightBarToggle}>
+          {/* <IconButton color="inherit" onClick={handleRightBarToggle}>
             <ViewSidebarOutlinedIcon />
-          </IconButton>
+          </IconButton> */}
         </Box>
       </Toolbar>
     </AppBar>

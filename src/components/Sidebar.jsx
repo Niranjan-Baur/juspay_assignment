@@ -50,10 +50,10 @@ const Sidebar = ({ mobileOpen, handleDrawerToggle }) => {
   const renderMenuItem = (to, icon, label, children) => {
     const isActive = location.pathname === to;
 
-    if (children) { 
+    if (children) {
       return (
         <>
-          <ListItemButton onClick={() => handleClick(label)} style={{ borderRadius: 1,padding:8, justifyContent: 'space-between' }}>
+          <ListItemButton onClick={() => handleClick(label)} style={{ borderRadius: 1, padding: 8, justifyContent: 'space-between' }}>
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <ListItemIcon>{icon}</ListItemIcon>
               <Typography
@@ -117,7 +117,7 @@ const Sidebar = ({ mobileOpen, handleDrawerToggle }) => {
           mb: 2,
         }}
       >
-        <Avatar sx={{ mr: 1 }} src="/assets/avater1.jpg"/>
+        <Avatar sx={{ mr: 1 }} src="/assets/avater1.jpg" />
         <Typography variant="subtitle1" >
           ByeWind
         </Typography>
@@ -181,6 +181,9 @@ const Sidebar = ({ mobileOpen, handleDrawerToggle }) => {
       {/* Desktop Sidebar */}
       <Drawer
         variant="permanent"
+        open={mobileOpen}
+        onClose={handleDrawerToggle}
+        ModalProps={{ keepMounted: true }}
         sx={{
           display: { xs: "none", sm: "block" },
           width: drawerWidth,

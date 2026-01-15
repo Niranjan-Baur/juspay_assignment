@@ -152,9 +152,9 @@ const Ecommerce = () => {
               yAxis={[
                 {
                   data: yLabels,
-                  valueFormatter: (value) => `${value}M`, 
+                  valueFormatter: (value) => `${value}M`,
                   min: 0,
-                  max: 30, 
+                  max: 30,
                   tickNumber: 3,
                 },
               ]}
@@ -190,10 +190,10 @@ const Ecommerce = () => {
               xAxis={[{ scaleType: 'point', data: xLabels }]}
               yAxis={[
                 {
-                  valueFormatter: (value) => `${value}M`, 
+                  valueFormatter: (value) => `${value}M`,
                   min: 0,
-                  max: 50, 
-                  tickNumber: 4, 
+                  max: 50,
+                  tickNumber: 4,
                 },
               ]}
             />
